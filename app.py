@@ -20,4 +20,4 @@ def get_tracks_count():
     return list_rec2html_br(records)
 
 
-app.run(debug=True, port=8000)
+app.run(debug=True, port=5000)
