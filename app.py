@@ -1,8 +1,7 @@
 from flask import Flask
 from db import execute_query
+from formater import list_rec2html_br
 
-
-from home_task_lesson5.formater import list_rec2html_br
 
 app = Flask(__name__)
 
